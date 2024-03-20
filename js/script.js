@@ -1,5 +1,5 @@
-// Copyright (c) 2020 Mr. Coxall All rights reserved
-//
-// Created by: Mr. Coxall
-// Created on: Sep 2020
-// This file contains the JS functions for index.html
+function CalculateArea(){
+  let Base = document.getElementById("Base").value;
+  let Height = document.getElementById("Height").value;
+  document.getElementById("Result").innerHTML="The area of this triangle is "+(Base*Height)/2+"cm<sup>2</sup>";
+}
